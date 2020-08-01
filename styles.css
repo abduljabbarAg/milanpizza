@@ -1,28 +1,37 @@
-body {
-    background-image: url(https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-103.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
+
+#mainpadding { /*main padding landing page settings*/
+    padding-top: 14%;
+    margin-bottom: 9%;
 }
-.mainheading {
+
+
+#background {  /*Main background settings*/
+    background-image: url('/home/abdul/Desktop/milanpizza/3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.mainheading { /*main heading welcome to delani studio settings*/
     font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
     text-shadow: 0 0 15px black;
     color: ivory;
     font-size: 50px;
-    text-shadow: black;
-    text-align: right;
-    
+    text-align: left;
     
 
 }
 
-.slogan {
+.slogan { /*main heading slogan settings*/
     font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
     text-shadow: 0 0 10px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 20px;
-    text-shadow: black;
-    text-align: right;
+    text-align: left;
 
+}
+
+#about { 
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
