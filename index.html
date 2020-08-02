@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src=".scripts.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
@@ -23,7 +26,7 @@
             <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#menu">Menu</a></li>
-                <li><a href="#orders">Order</a></li>
+                <li><a href="#order">Order</a></li>
         </div>
       </nav>
 
@@ -109,7 +112,7 @@
 
     
 
-        <div class="jumbotron" id="orders">
+        <div class="jumbotron" id="order">
             <center><h1>Order</h1></center>
         
     <div class="form">
@@ -165,11 +168,12 @@
         
         <label>Number of pizza</label>
         <br>
-         <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+        <input value="" required placeholder="number of pizza" id="quantity"></input><br>
         <div class="button">
     </div>    
     
         <br>
+        
         <br>
         
         <button type="submit" id="btn" label="">submit</button>
