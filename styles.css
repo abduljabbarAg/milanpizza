@@ -1,10 +1,8 @@
-
 #mainpadding { /*main padding landing page settings*/
     padding-top: 14%;
     margin-bottom: 9%;
-    background-color: ;
+    background-color: 
 }
-
 
 #background {  /*Main background settings*/
     background-image: url('3.jpeg');
@@ -12,6 +10,7 @@
     background-repeat: no-repeat;
     position: relative;
     background-color: darkgrey;
+    height: 100vh;
 }
 
 .mainheading { /*main heading welcome to delani studio settings*/
