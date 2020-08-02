@@ -2,6 +2,7 @@
 #mainpadding { /*main padding landing page settings*/
     padding-top: 14%;
     margin-bottom: 9%;
+    background-color: ;
 }
 
 
@@ -10,6 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    background-color: darkgrey;
 }
 
 .mainheading { /*main heading welcome to delani studio settings*/
@@ -97,15 +99,19 @@ a {color: #000;}
 
 a:link{text-decoration:none;}
 
-.box1{background: rgb(76, 175, 80, 0.6);}
-.box2{background: rgb(192, 192, 200, 0.6);}
-.box3{background: rgb(255, 0, 0, 0.6);;}
+.box1{background: rgba(199, 199, 199, 0.6);}
+.box2{background: rgba(139, 138, 138, 0.6);}
+.box3{background: rgba(78, 78, 78, 0.6);;}
 
-
-
-#author a{
-  color: #fff;
-  text-decoration: none;
-    
 }
+@media (max-width: 767px)
 
+.footer-bottom, .footer-social {
+    text-align: right;
+}
+.footer-bottom {
+    padding: 50px 27px;
+    background: #444;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
