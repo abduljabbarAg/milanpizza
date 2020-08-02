@@ -47,7 +47,7 @@ var totalCost = (userInput.newSize + userInput.newCrust + userInput.newTopping +
 
 
 /*Alert user on the total amout and prompt delivery information */
-alert("Your charges for Pizza" + totalCost);
+alert("Your charges for Pizza" + " " + totalCost);
 prompt("Please enter your phone number");
 prompt("Where are you located");
 alert("Your pizza will be delivered in 1 hour");
