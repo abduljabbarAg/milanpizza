@@ -39,3 +39,9 @@ this.newQuantity = quantity;
 var userInput = new Order(flavor(), size(), crust(), topping(), number());  
 
 var totalCost = (userInput.newSize + userInput.newCrust + userInput.newTopping + userInput.newFlavor) *userInput.newQuantity;
+
+
+alert("Your charges for Pizza" + totalCost);
+prompt("Please enter your phone number");
+prompt("Where are you located");
+alert("Your pizza will be delivered in 1 hour");
