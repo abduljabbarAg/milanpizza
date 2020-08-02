@@ -55,6 +55,7 @@ body {
     float: left;
     width: 25%;
     padding: 0 10px;
+    
   }
   
   
@@ -84,6 +85,8 @@ body {
     padding: 16px;
     text-align: center;
     background-color: #dabbbb;
+    border-radius: 50%;
+    background-image: url(https://www.cheese.com/media/img/cheese/10-American-Cheese-shutterstock_1610208106.jpg);
   }
 
 .form[type=text], select { /*style the form size*/
