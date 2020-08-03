@@ -50,7 +50,7 @@ var totalCost = (userInput.newSize + userInput.newCrust + userInput.newTopping +
 alert("Your charges for Pizza" + " " + totalCost);
 prompt("Please enter your phone number");
 prompt("Where are you located");
-alert("Your pizza will be delivered in 1 hour");
+alert("Thank you for the order, Your pizza will be delivered in 1 hour");
 
 /*when clicking submit this prevents submitting the form*/
 event.preventDefault();
